@@ -1,0 +1,57 @@
+body{
+    background-color: #232741;
+    font-family: verdana;
+    
+}
+/*main navigation menu*/
+.nav{
+    background-color: #f4f4f4;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 20px;
+}
+
+/*hyperlink styling*/
+a:link, a:visited, a:active{
+    color: #232741;
+}
+
+a:hover{
+    color: #c62f2f;
+}
+
+/*footer*/
+.footer{
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-left: -7.5%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;    
+    width: 15%;
+}
+
+/*particle effect css*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
